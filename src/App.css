@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  height: 500px;
+  width: 500px;
+  justify-content: center;
+  align-items:center;
+  background-color:#eef742;
+}
+.sum{
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+  background-color:#fff;
+  color: #eef742;
+  font-weight: bold;
+  font-size:40px;
+  vertical-align: middle;
+  line-height: 90px
+}
+.button{
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius:70%; 
+  border-bottom-right-radius:70%; 
+  background-color:#ecff84;
+  font-size:30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.decrement{
+  border-top-right-radius:70%; 
+  margin-right:10px;
+}
+
+.increment{
+  border-bottom-left-radius:70%; 
+  margin-left:10px;
+}
